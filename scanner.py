@@ -45,9 +45,12 @@ def save_state(sent: set[str]) -> None:
 
 
 def main() -> None:
-    exchange = ccxt.binance({
+        exchange = ccxt.binance({
         "enableRateLimit": True,
-        "options": {"defaultType": "spot"},
+        "options": {
+            "defaultType": "spot",
+            "fetchMarkets": ["spot"],
+        },
     })
 
     exchange.urls["api"]["public"] = "https://data-api.binance.vision/api/v3"
