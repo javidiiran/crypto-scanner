@@ -49,6 +49,9 @@ def main() -> None:
         "enableRateLimit": True,
         "options": {"defaultType": "spot"},
     })
+
+    exchange.urls["api"]["public"] = "https://data-api.binance.vision/api/v3"
+
     markets = exchange.load_markets()
     symbols = sorted(
         symbol for symbol, market in markets.items()
