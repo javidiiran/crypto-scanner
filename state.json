@@ -1830,5 +1830,11 @@
   ],
   "processed_btc": [
     "BTCUSDT|30m|1793453400000|SELL"
-  ]
+  ],
+  "window_direction": null,
+  "window_signal_candle_ms": null,
+  "window_remaining": 0,
+  "last_processed_btc_candle_ms": 1793457000000,
+  "last_btc_candle_allowed": false,
+  "last_btc_candle_direction": null
 }
