@@ -1,0 +1,6 @@
+Kraken Derivatives Perpetual Scanner
+Version: 3-CLOSED-BAR-CONFIRMATION
+Timeframe: 30m
+Signal confirmation: exactly 3 consecutive closed SQZMOM histogram bars, all on the same side of zero, with the middle bar as strict local peak/trough.
+No strength multiplier or amplitude threshold.
+Market: Kraken Perpetual Futures only; no Spot fallback.
