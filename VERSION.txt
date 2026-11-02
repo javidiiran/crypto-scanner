@@ -1,0 +1,12 @@
+Kraken Derivatives Perpetual Scanner
+Version: 2.0.0-btc-phase-ob-rebuild
+Date: 2026-11-02
+Market: Kraken Futures Perpetual only
+Timeframe: 30m
+Core: BTC SQZMOM confirmed pivot phase + altcoin 3-closed-bar SQZMOM + original colored Order Blocks
+SMC: Uncle_the_shooter Order Blocks Zones with Signals logic (green/red OB only)
+BTC gate: latest confirmed positive peak = SELL; latest confirmed negative trough = BUY; persists until opposite pivot
+OB confirmation: Close of at least one of the same three pivot-forming candles inside a matching active OB
+No amplitude multiplier; no simultaneous BUY/SELL; no spot; no auto-trading
+Offline tests: 13/13 passed
+Live Kraken/Telegram: not verified in build environment
