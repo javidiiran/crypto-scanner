@@ -1,0 +1,19 @@
+Kraken Derivatives Perpetual Scanner — v2.1 DIAGNOSTICS
+
+This is a diagnostic-only build based on v2.0.
+No trading conditions, SQZMOM calculations, BTC bias rules, SMC Order Block
+rules, signal timing, market selection, or alert deduplication rules have been
+intentionally changed.
+
+Added diagnostics:
+- Perpetual contracts queued and records returned
+- Empty/insufficient candle data and fetch/engine errors
+- Latest candle timestamp mismatch and lag in 30-minute bars
+- Latest-candle 3-closed-bar BUY trough / SELL peak candidates
+- Matching active green/red Order Block confirmation in the 3-bar window
+- Current-candle active green/red OB box counts containing the close
+- Candidates rejected by BTC directional bias
+- Candidates ready for alert
+
+Run: python scanner.py
+The diagnostic report is printed in GitHub Actions logs.
