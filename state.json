@@ -1,10 +1,10 @@
 {
   "sent": [],
   "cancelled": [],
-  "scanner": "Kraken Futures WaveTrend OB-FVG RSI 1.2.0",
-  "btc_direction": null,
-  "btc_signal_timestamp_ms": 0,
-  "btc_signal_time": "—",
-  "btc_signal_rsi": null,
-  "btc_source": null
+  "btc_direction": "BUY",
+  "btc_signal_timestamp_ms": 1793651400000,
+  "btc_signal_time": "2026-11-02 20:30 UTC",
+  "btc_signal_rsi": 27.786969277986557,
+  "btc_source": "INITIAL_WAVETREND",
+  "scanner": "Kraken Futures WaveTrend OB-FVG RSI 1.2.0"
 }
