@@ -1,0 +1,12 @@
+Kraken Futures WaveTrend + Order Blocks/FVG Scanner
+Version: 1.1
+Market: Kraken Futures Perpetual only (PF_, PI_)
+Timeframe: 30m closed candles only
+Indicators: Wave Trend With Signals [ChuckBanger] + Order Blocks Zones with Signals [Uncle_the_shooter]
+RSI: Wilder RSI(14), priority ranking only
+Signal confirmation: four prior closed bars + two following closed bars; signal bar excluded
+OB/FVG zones: retain every zone while active under the indicator's own invalidation/age/box-cap rules
+Opposite box touch anywhere in the confirmation window: reject; matching OB OR FVG touch: confirm
+FVG direction mapping: blue=bullish/green, orange=bearish/red
+Alert ordering: BTC-aligned first, BTC-opposite second; within each group RSI priority 1 then 2
+Duplicate alerts: persistent state.json
