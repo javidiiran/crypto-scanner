@@ -1,7 +1,24 @@
 {
-  "sent": [],
+  "sent": [
+    "PF_AMZNXUSD|1793718000000|SELL",
+    "PF_APEUSD|1793718000000|SELL",
+    "PF_CHILLGUYUSD|1793718000000|SELL",
+    "PF_CROUSD|1793718000000|SELL",
+    "PF_KAIAUSD|1793718000000|BUY",
+    "PF_LQTYUSD|1793718000000|SELL",
+    "PF_METAXUSD|1793718000000|BUY",
+    "PF_MOODENGUSD|1793718000000|SELL",
+    "PF_POLUSD|1793718000000|BUY",
+    "PF_RIVERUSD|1793718000000|BUY",
+    "PF_SYNUSD|1793718000000|SELL",
+    "PF_TRUMPUSD|1793718000000|BUY",
+    "PF_XAGUSD|1793718000000|SELL",
+    "PF_XAUTUSD|1793718000000|SELL",
+    "PF_XMRUSD|1793718000000|SELL"
+  ],
   "btc_direction": null,
   "btc_signal_timestamp_ms": 0,
   "btc_signal_time": "—",
-  "btc_signal_rsi": null
+  "btc_signal_rsi": null,
+  "scanner": "Kraken Futures Scanner 2 CNV RSI 2.0.0"
 }
