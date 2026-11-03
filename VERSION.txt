@@ -1,0 +1,20 @@
+Kraken Futures WaveTrend + Order Blocks/FVG Scanner
+Version: 1.2.0 — BTC bias persistence, RSI reporting, 7-candle confirmation, chart freshness fallback
+Market: Kraken Futures Perpetual only (PF_, PI_)
+Timeframe: 30m closed candles only
+Indicators: Wave Trend With Signals [ChuckBanger] + Order Blocks Zones with Signals [Uncle_the_shooter]
+Altcoin signal eligibility: WaveTrend event in the latest 3 closed candles (unchanged)
+BTC initial direction: latest BTC WaveTrend signal alone; OB/FVG confirmation is not required on initialization
+BTC later direction changes: only a newer opposite WaveTrend signal confirmed by same-direction OB or FVG touch
+BTC confirmation window: latest 7 closed candles, including the signal candle
+General OB/FVG confirmation window: latest 7 closed candles for recent candidates
+Box direction: red/orange = SELL; green/blue = BUY
+Rejection: any opposite-direction active OB/FVG touch in the same seven-candle window rejects the candidate
+Zone lifetime: follow Pine deletion/cleanup rules; FVG remains active after its visual right edge until deleted
+Final filter: only altcoin signals aligned with the persisted BTC direction; block all altcoin alerts if no BTC WT direction exists
+RSI: Wilder RSI(14); show signal/confirmation RSI and current closed-candle RSI for each asset and BTC
+RSI priority: BUY >50 and SELL <50 priority 1; all other values priority 2; RSI does not reject signals
+Data safety: ranged chart request plus latest-candles fallback; retry stale responses up to 3 rounds; reject candles older than 2 x 30m intervals
+State: persist sent/cancelled alert keys and BTC direction/signal timestamp/source in state.json
+Diagnostics: data freshness, raw WT, pivot confirmations, OB/FVG create/delete/active counts, candidate rejections, BTC direction changes
+Offline tests: 25 passed (must be rerun in CI)
