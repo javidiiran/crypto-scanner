@@ -1,5 +1,12 @@
 {
-  "sent": [],
+  "sent": [
+    "PF_ARBUSD|30m|1793680200000|BUY",
+    "PF_CRVUSD|30m|1793678400000|BUY",
+    "PF_LDOUSD|30m|1793680200000|BUY",
+    "PF_PYTHUSD|30m|1793680200000|BUY",
+    "PF_RENDERUSD|30m|1793680200000|BUY",
+    "PF_XLMUSD|30m|1793676600000|BUY"
+  ],
   "cancelled": [],
   "scanner": "Kraken WaveTrend OB-FVG 1.0"
 }
