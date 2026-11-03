@@ -1,0 +1,14 @@
+Kraken Futures WaveTrend + Order Blocks/FVG Scanner
+Version: 1.1 corrected
+Market: Kraken Futures Perpetual only (PF_, PI_)
+Timeframe: 30m closed candles only
+Indicators: Wave Trend With Signals [ChuckBanger] + Order Blocks Zones with Signals [Uncle_the_shooter]
+Signal eligibility: WaveTrend event in the latest 3 closed candles
+Confirmation: latest 6 closed candles, including the signal candle
+Box direction: red/orange = SELL; green/blue = BUY
+Confirmation: at least one active same-direction OB or FVG touch
+Rejection: any opposite-direction active OB or FVG touch in the same six-candle window
+Zone lifetime: follow Pine deletion/cleanup rules; FVG remains active after its visual right edge until deleted
+Final filter: only the latest confirmed BTC 30m direction; fail closed if unavailable
+RSI: Wilder RSI(14), priority only; BUY >50 and SELL <50 priority 1; all other values priority 2
+Diagnostics: raw WT, pivot confirmations, OB/FVG create/delete/active counts, candidate rejections, BTC filter blocks
