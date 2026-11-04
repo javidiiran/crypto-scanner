@@ -1,11 +1,11 @@
 {
   "sent": {},
   "btc_control": {
-    "last_btc_candle_time": 1793813400000,
+    "last_btc_candle_time": 1793817000000,
     "active_side": null,
     "remaining_bars": 0,
     "last_btc_color": "green",
-    "last_btc_rsi": 73.19777418084948
+    "last_btc_rsi": 69.32854270763556
   },
-  "last_run_utc": "2026-11-04T18:18:51.933757+00:00"
+  "last_run_utc": "2026-11-04T19:24:03.413520+00:00"
 }
