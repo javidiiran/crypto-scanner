@@ -1,11 +1,13 @@
 {
-  "sent": {},
-  "btc_control": {
-    "last_btc_candle_time": 1793791800000,
-    "active_side": null,
-    "remaining_bars": 0,
-    "last_btc_color": "lime",
-    "last_btc_rsi": 63.100971506583164
+  "sent": {
+    "BTC_SIGNAL:SELL:1793797200000": "2026-11-04T13:43:56.556824+00:00"
   },
-  "last_run_utc": "2026-11-04T12:29:19.215237+00:00"
+  "btc_control": {
+    "last_btc_candle_time": 1793797200000,
+    "active_side": "SELL",
+    "remaining_bars": 4,
+    "last_btc_color": "green",
+    "last_btc_rsi": 61.123870083769496
+  },
+  "last_run_utc": "2026-11-04T13:43:56.557015+00:00"
 }
