@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "last_btc_candle_time": 1793835900000,
-  "active_direction": "BUY",
-  "bars_remaining": 1,
+  "last_btc_candle_time": 1793839500000,
+  "active_direction": null,
+  "bars_remaining": 0,
   "previous_btc_signal": "BUY",
   "previous_btc_signal_time": 1793827800000,
   "last_signal_candle_by_symbol": {
