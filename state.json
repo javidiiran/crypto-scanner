@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_btc_candle_time": 1793880900000,
+  "last_btc_candle_time": 1793885400000,
   "last_btc_signal": null,
   "prior_btc_signal": null,
   "last_signal_candle_by_symbol": {
@@ -11,6 +11,7 @@
     "PF_DEXEUSD": 1793880900000,
     "PF_EURUSD": 1793880900000,
     "PF_GRASSUSD": 1793880900000,
-    "PF_KASUSD": 1793880900000
+    "PF_KASUSD": 1793880900000,
+    "PF_OURAXUSD": 1793885400000
   }
 }
