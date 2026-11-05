@@ -1,9 +1,19 @@
 {
   "schema_version": 1,
-  "last_btc_candle_time": 1793862900000,
-  "active_direction": null,
-  "bars_remaining": 0,
-  "previous_btc_signal": null,
-  "previous_btc_signal_time": null,
-  "last_signal_candle_by_symbol": {}
+  "last_btc_candle_time": 1793866500000,
+  "active_direction": "BUY",
+  "bars_remaining": 4,
+  "previous_btc_signal": "BUY",
+  "previous_btc_signal_time": 1793866500000,
+  "last_signal_candle_by_symbol": {
+    "PF_APTUSD": 1793866500000,
+    "PF_NEARUSD": 1793866500000,
+    "PF_ONDOUSD": 1793866500000,
+    "PF_XAUTUSD": 1793866500000,
+    "PF_XMRUSD": 1793866500000
+  },
+  "last_btc_signal": {
+    "direction": "BUY",
+    "time": 1793866500000
+  }
 }
