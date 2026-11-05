@@ -1,0 +1,7 @@
+{
+  "schema_version": 2,
+  "last_btc_candle_time": null,
+  "last_btc_signal": null,
+  "prior_btc_signal": null,
+  "last_signal_candle_by_symbol": {}
+}
