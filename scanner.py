@@ -191,7 +191,42 @@ def rma(values: list[float | None], length: int) -> list[float | None]:
             out[i] = prev
     return out
 
+def rsi(values, period):
+    values = np.asarray(values, dtype=float)
 
+    delta = np.diff(values)
+    gains = np.maximum(delta, 0.0)
+    losses = np.maximum(-delta, 0.0)
+
+    avg_gain = np.full(len(values), np.nan)
+    avg_loss = np.full(len(values), np.nan)
+
+    if len(delta) < period:
+        return np.full(len(values), np.nan)
+
+    avg_gain[period] = np.mean(gains[:period])
+    avg_loss[period] = np.mean(losses[:period])
+
+    for i in range(period + 1, len(values)):
+        avg_gain[i] = (
+            avg_gain[i-1] * (period-1) + gains[i-1]
+        ) / period
+
+        avg_loss[i] = (
+            avg_loss[i-1] * (period-1) + losses[i-1]
+        ) / period
+
+    rs = np.divide(
+        avg_gain,
+        avg_loss,
+        out=np.full(len(values), np.inf),
+        where=avg_loss != 0
+    )
+
+    result = 100 - (100 / (1 + rs))
+    result[:period] = np.nan
+
+    return result
 def bxt_color_series(candles: list[Candle]) -> list[str | None]:
     closes = [c.close for c in candles]
     if not closes:
