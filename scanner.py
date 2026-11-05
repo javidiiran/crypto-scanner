@@ -8,6 +8,7 @@ import math
 import os
 import sys
 import time
+import numpy as np
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
