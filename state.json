@@ -1,7 +1,11 @@
 {
   "schema_version": 2,
-  "last_btc_candle_time": null,
+  "last_btc_candle_time": 1793878200000,
   "last_btc_signal": null,
   "prior_btc_signal": null,
-  "last_signal_candle_by_symbol": {}
+  "last_signal_candle_by_symbol": {
+    "PF_COINXUSD": 1793878200000,
+    "PF_MOONSHOTXUSD": 1793878200000,
+    "PF_SHIBUSD": 1793878200000
+  }
 }
