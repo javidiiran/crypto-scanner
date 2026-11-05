@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_btc_candle_time": 1793889900000,
+  "last_btc_candle_time": 1793891700000,
   "last_btc_signal": null,
   "prior_btc_signal": null,
   "last_signal_candle_by_symbol": {
@@ -15,6 +15,8 @@
     "PF_SEIUSD": 1793889900000,
     "PF_SOLUSD": 1793889900000,
     "PF_TIAUSD": 1793889900000,
-    "PF_ZECUSD": 1793889900000
+    "PF_ZECUSD": 1793889900000,
+    "PF_AAVEUSD": 1793891700000,
+    "PF_ANTHROPICXUSD": 1793891700000
   }
 }
