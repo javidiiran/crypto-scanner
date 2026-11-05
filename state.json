@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
-  "last_btc_candle_time": 1793833200000,
+  "last_btc_candle_time": 1793835900000,
   "active_direction": "BUY",
-  "bars_remaining": 2,
+  "bars_remaining": 1,
   "previous_btc_signal": "BUY",
   "previous_btc_signal_time": 1793827800000,
   "last_signal_candle_by_symbol": {
     "PF_AAVEUSD": 1793827800000,
     "PF_QNTUSD": 1793830500000,
-    "PF_WTIOILUSD": 1793833200000
+    "PF_WTIOILUSD": 1793833200000,
+    "PF_CAKEUSD": 1793835900000
   },
   "last_btc_signal": {
     "direction": "BUY",
