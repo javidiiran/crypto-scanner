@@ -1,7 +1,20 @@
 {
   "schema_version": 2,
-  "last_btc_candle_time": null,
+  "last_btc_candle_time": 1793889900000,
   "last_btc_signal": null,
   "prior_btc_signal": null,
-  "last_signal_candle_by_symbol": {}
+  "last_signal_candle_by_symbol": {
+    "PF_GALAUSD": 1793889900000,
+    "PF_GOATUSD": 1793889900000,
+    "PF_GRASSUSD": 1793889900000,
+    "PF_KAVAUSD": 1793889900000,
+    "PF_MSTRXUSD": 1793889900000,
+    "PF_OPUSD": 1793889900000,
+    "PF_PEPEUSD": 1793889900000,
+    "PF_POLUSD": 1793889900000,
+    "PF_SEIUSD": 1793889900000,
+    "PF_SOLUSD": 1793889900000,
+    "PF_TIAUSD": 1793889900000,
+    "PF_ZECUSD": 1793889900000
+  }
 }
