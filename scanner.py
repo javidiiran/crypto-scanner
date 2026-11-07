@@ -589,7 +589,7 @@ def send_telegram(text: str) -> None:
             raise RuntimeError(f"Telegram rejected message: {data}")
 
 
-def analyze_market(symbol: str, tick_size: float = 0.01) -> tuple[str, dict]:
+def analyze_market(symbol: str, tick_size: float = 0.01, is_bitcoin: bool = False) -> tuple[str, dict]:
     """Evaluate a single contract independently; BTC never gates other symbols."""
     try:
         candles = fetch_candles(symbol)
