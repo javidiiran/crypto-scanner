@@ -1,4 +1,9 @@
 {
   "schema_version": 4,
-  "last_signal_candle_by_symbol": {}
+  "last_signal_candle_by_symbol": {
+    "PF_RUNEUSD": 1794035700000,
+    "PF_FARTCOINUSD": 1794035700000,
+    "PF_OPENUSD": 1794035700000,
+    "PF_NATGASUSD": 1794035700000
+  }
 }
